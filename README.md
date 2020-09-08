@@ -1,7 +1,7 @@
 # WeatherApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.7.
-It is inspired from the [template](https://dribbble.com/shots/14160629-Weather-App-Dashboard-Design) shared by [Hadi Altaf](https://dribbble.com/hadialtaf) on [Dribbble](https://dribbble.com);
+It is inspired from the [template](https://dribbble.com/shots/14160629-Weather-App-Dashboard-Design) shared by [Hadi Altaf](https://dribbble.com/hadialtaf) on [Dribbble](https://dribbble.com)
 
 ## Template
 ![template](https://static.dribbble.com/users/554465/screenshots/14160629/media/b87781bd02b7c81b3a90a49b3620f6fe.png)

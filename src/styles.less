@@ -1,1 +1,94 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    padding: 0vh 4vw;
+    font-family: 'Poppins', sans-serif;
+
+    --font-size-small: 14px;
+    --font-size-regular: 16px;
+    --font-size-medium: 18px;
+    --font-size-navbar-label: 13px;
+}
+
+.Row{
+    display: flex;
+    &.CenterV{
+        align-items: center;
+    }
+
+    &.CenterH{
+        justify-content: center;
+    }
+}
+
+.Column{
+    .Row;
+    &.CenterV{
+        .Row.CenterH;
+    }
+    &.CenterH{
+        .Row.CenterV;
+    }
+}
+
+.Position{
+    .Relative{
+        position: relative;
+    }
+    .Absolute{
+        position: absolute;
+    }
+}
+
+.Cursor{
+    &.Pointer{
+        cursor: pointer;
+    }
+}
+
+.Text{
+    .Center{
+        text-align: center;
+    }
+}
+
+.FontSize-Sm{
+    font-size: var(--font-size-small);
+}
+
+.FontWeight5x{
+    font-weight: 500;
+}
+
+.FontWeight6x{
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+.PaddingLeft1x{
+    padding-left: 1vw;
+}
+
+.PaddingRight1x{
+    padding-right: 1vw;
+}
+
+
+
+
+
+
+
+.MarginRight5x{
+    margin-right: 5vw;
+}
+
+.MarginRight8x{
+    margin-right: 8vw;
+}

@@ -1,0 +1,14 @@
+<div class="Navbar Row CenterV">
+    <div class="Brand MarginRight8x">
+        <img src="assets/icons/brand.svg" alt="brand_icon">
+    </div>
+    
+    <ng-container>
+        <a  *ngFor="let action of actions"
+            [routerLink]="action.link"
+            routerLinkActive="Active"
+            class="NavbarAction FontWeight6x PaddingLeft1x PaddingRight1x Cursor Pointer">
+            {{action.label}}
+        </a>
+    </ng-container>
+</div>
